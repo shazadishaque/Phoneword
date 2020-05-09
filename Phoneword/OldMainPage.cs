@@ -6,14 +6,14 @@ using Xamarin.Forms;
 
 namespace Phoneword
 {
-    public class MainPage : ContentPage
+    public class OldMainPage : ContentPage
     {
         private Entry phoneNumberText;
         private Button translateButton;
         private Button callButton;
         private string translatedNumber;
 
-        public MainPage()
+        public OldMainPage()
         {
             this.Padding = new Thickness(20, 20, 20, 20);
 
